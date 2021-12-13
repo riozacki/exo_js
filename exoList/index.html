@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Liste d'utilisateurs</h1>
+
+    <div id="form1"> 
+        <form>
+            Prénom<input type="text" id="bt1" ></input>
+            Age<input type="text" id="bt2"></input>
+            <select name="pets" id="bt3">
+                <option value="">--role--</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+            <span><button type="button" id="create" onclick="getForm();">Créer</button></span>
+        </form>
+    </div>
+    <div id="userlist"></div>
+
+    <script src="exoList.js"></script>
+</body>
+
+</html>

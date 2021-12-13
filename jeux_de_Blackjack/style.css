@@ -1,0 +1,15 @@
+#btJ{
+    visibility: hidden;
+}
+#nomCarteJ{
+    color: springgreen;
+}
+#valueCarteJ{
+    color: springgreen;
+}
+#gagner, #perdu{
+    color: firebrick;
+}
+#btReset{
+    visibility: hidden;
+}
